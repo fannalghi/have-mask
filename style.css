@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url("https://i.pinimg.com/736x/9c/d6/45/9cd6451b41650c5c6fafc7a70c6f2b27.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: brown;
+}
+
+.layar {
+  display: none;
+  min-height: 100vh;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#layar1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 100px;
+}
+
+button {
+  width: 200px;
+  padding: 12px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #a52a2a;
+  color: #cd7f32;
+  font-size: 20px;
+}
+
+.container-button {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.container-button button {
+  width: 100%;
+  margin: 0;
+}
+.gambar-lukisan {
+    width: 70%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
